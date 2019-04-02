@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-
+//Link prevents default behaviour for a href and updates the URL. In turn, the updated URL causes a different component to be rendered
 const NavBar = () => {
   return (
     <ul>
@@ -21,3 +21,5 @@ const NavBar = () => {
 };
 
 export default NavBar;
+
+//https://reacttraining.com/react-router/web/guides/quick-start
